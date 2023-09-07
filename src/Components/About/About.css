@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+     .About{
+          @apply  bg-slate-900 px-8 pb-6
+     }
+
+     .About-heading{
+          @apply text-2xl font-bold leading-10
+     }
+
+     .About-desc{
+          @apply font-thin text-sm tracking-wider 
+     }
+}

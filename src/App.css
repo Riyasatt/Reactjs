@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+     .App{
+          @apply my-10 w-96 mx-auto rounded-lg overflow-hidden text-white shadow-2xl;
+     }
+}

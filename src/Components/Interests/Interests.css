@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+     .Interests{
+          @apply  bg-slate-900 px-8 pb-6
+     }
+
+     .Interests-heading{
+          @apply text-2xl font-bold leading-10
+     }
+
+     .Interests-desc{
+          @apply font-thin text-sm tracking-wider pb-16 
+     }
+}

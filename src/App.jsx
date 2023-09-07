@@ -1,13 +1,17 @@
 import React from 'react'
 import "./App.css"
-import Navbar from './Components/Navbar'
-import MainContent from './Components/MainContent'
+import Header from './Components/Header/Header'
+import About from './Components/About/About'
+import Interests from './Components/Interests/Interests'
+import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
-    <div className="app text-white ">
-      <Navbar />
-      <MainContent />
+    <div className="App">
+      <Header />
+      <About />
+      <Interests />
+      <Footer />
     </div>
   )
 }
