@@ -1,9 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer components{
-     .Footer{
-          @apply flex justify-center py-5 bg-slate-950 gap-4
-     }
-}

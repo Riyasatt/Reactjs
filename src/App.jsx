@@ -1,17 +1,25 @@
-import React from 'react'
+import React from "react";
+import Card from "./Components/Card"
 import "./App.css"
-import Header from './Components/Header/Header'
-import About from './Components/About/About'
-import Interests from './Components/Interests/Interests'
-import Footer from './Components/Footer/Footer'
+import data from "./data"
+
+
 
 const App = () => {
+  const receiveData =data.map(hotelData => {
+    return  <Card
+    coverImg={hotelData.coverImg}
+    location={hotelData.location}
+    description={hotelData.description}
+    price={hotelData.price}
+    rating={hotelData.stats.rating}
+  />
+    
+  })
+
   return (
-    <div className="App">
-      <Header />
-      <About />
-      <Interests />
-      <Footer />
+    <div className="flex gap-5 my-10 mx-32 flex-wrap ">
+      {receiveData}
     </div>
   )
 }
