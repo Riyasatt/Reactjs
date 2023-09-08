@@ -23,7 +23,7 @@
 ### Task 3
 Used Props and Mapping
 <br>
-<ing src="./Saves/3.png">
+<img src="./Saves/3.png">
 
 
 
