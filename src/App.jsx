@@ -13,12 +13,13 @@ const App = () => {
     description={hotelData.description}
     price={hotelData.price}
     rating={hotelData.stats.rating}
+    openSpots={hotelData.openSpots}
   />
     
   })
 
   return (
-    <div className="flex gap-5 my-10 mx-32 flex-wrap ">
+    <div className="flex gap-5 my-10 mx-10 overflow-scroll ">
       {receiveData}
     </div>
   )
