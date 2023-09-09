@@ -26,6 +26,15 @@ Used Props and Mapping
 <img src="./Saves/3.png">
 
 
+<br>
+<br>
+
+### Task 4
+Used Props and Mapping --- Travel Journal
+<br>
+<img src="./Saves/4.png">
+
+
 
 
 
